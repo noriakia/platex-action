@@ -9,4 +9,4 @@ fi
 
 # make pdf
 # latexmk $INPUT_LATEX_FILE_NAME
-latexmk -lualatex $INPUT_LATEX_FILE_NAME
+latexmk -latex $INPUT_LATEX_FILE_NAME
