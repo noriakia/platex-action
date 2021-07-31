@@ -2,10 +2,12 @@
 # example .latexmkrc 
 
 # platex pdf-sync
-$latex = 'platex -synctex=1 -halt-on-error';
+# $latex = 'platex -synctex=1 -halt-on-error';
+$latex = 'lualatex -synctex=1 -halt-on-error';
 
 # platex less-error-message
-$latex_silent = 'platex -synctex=1 -halt-on-error -interaction=batchmode';
+# $latex_silent = 'platex -synctex=1 -halt-on-error -interaction=batchmode';
+$latex_silent = 'lualatex -synctex=1 -halt-on-error -interaction=batchmode';
 
 # pbibtex
 $bibtex = 'pbibtex';
